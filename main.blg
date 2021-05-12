@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ugost2008.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: recsys_rl.bib
+A bad cross reference---entry "ddpg"
+refers to entry "conf/iclr/2016", which doesn't exist
+Warning--I didn't find a database entry for "catalyst"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--can't use both volume and number fields in dpg
+You've used 22 entries,
+            4636 wiz_defined-function locations,
+            1515 strings with 16376 characters,
+and the built_in function-call counts, 9293 in all, are:
+= -- 1128
+> -- 342
+< -- 27
++ -- 104
+- -- 82
+* -- 533
+:= -- 950
+add.period$ -- 92
+call.type$ -- 22
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 495
+empty$ -- 975
+format.name$ -- 82
+if$ -- 2526
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 0
+newline$ -- 161
+num.names$ -- 62
+pop$ -- 137
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 469
+stack$ -- 0
+substring$ -- 236
+swap$ -- 384
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 44
+width$ -- 24
+write$ -- 362
+(There was 1 error message)

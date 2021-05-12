@@ -1,0 +1,217 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{Liu2018DeepRL}
+\selectlanguageifdefined{english}
+Deep Reinforcement Learning based Recommendation with Explicit User-Item
+  Interactions Modeling~/ Feng~Liu, Ruiming~Tang, Xutao~Li et~al.~//
+  \BibEmph{ArXiv}. \BibDash
+\newblock 2018. \BibDash
+\newblock Vol. abs/1810.12027.
+
+\bibitem{sutton_book}
+\selectlanguageifdefined{english}
+\BibEmph{Sutton~Richard~S., Barto~Andrew~G.} Reinforcement Learning: An
+  Introduction. \BibDash
+\newblock Cambridge, MA, USA~: A Bradford Book, 2018. \BibDash
+\newblock
+  ISBN:~\href{http://isbndb.com/search-all.html?kw=0262039249}{0262039249}.
+
+\bibitem{ML_1M}
+\selectlanguageifdefined{english}
+\BibEmph{A.~Saxena~K.~Goebel~D.~Simon, Eklund~N.} Damage propagation modeling
+  for aircraft engine run-to-failure simulation~//
+  \href{http://dx.doi.org/10.1109/PHM.2008.4711414}{\BibEmph{2008 International
+  Conference on Prognostics and Health Management}}. \BibDash
+\newblock 2008. \BibDash Dec. \BibDash
+\newblock Vol.~5, no.~4. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1145/2827872}.
+
+\bibitem{trulyPPO}
+\selectlanguageifdefined{english}
+\BibEmph{Wang~Yuhui, He~Hao, Wen~Chao, Tan~Xiaoyang}. Truly Proximal Policy
+  Optimization. \BibDash
+\newblock 2019. \BibDash
+\newblock 1903.07940.
+
+\bibitem{bandits}
+\selectlanguageifdefined{english}
+\href{http://dx.doi.org/10.1145/1772690.1772758}{A Contextual-Bandit Approach
+  to Personalized News Article Recommendation}~/ Lihong~Li, Wei~Chu,
+  John~Langford, Robert~E.~Schapire~// Proceedings of the 19th International
+  Conference on World Wide Web. \BibDash
+\newblock WWW ’10. \BibDash
+\newblock New York, NY, USA~: Association for Computing Machinery, 2010.
+  \BibDash
+\newblock P.~661–670. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1145/1772690.1772758}.
+
+\bibitem{page-wise}
+\selectlanguageifdefined{english}
+\href{http://dx.doi.org/10.1145/3240323.3240374}{Deep reinforcement learning
+  for page-wise recommendations}~/ Xiangyu~Zhao, Long~Xia, Liang~Zhang
+  et~al.~// Proceedings of the 12th {ACM} Conference on Recommender Systems -
+  {RecSys} {\textquotesingle}18. \BibDash
+\newblock {ACM} Press, 2018. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1145/3240323.3240374}.
+
+\bibitem{list-wise}
+\selectlanguageifdefined{english}
+Deep Reinforcement Learning for List-wise Recommendations~/ Xiangyu~Zhao,
+  Liang~Zhang, Zhuoye~Ding et~al.~// \BibEmph{ArXiv}. \BibDash
+\newblock 2018. \BibDash
+\newblock Vol. abs/1801.00209.
+
+\bibitem{CF_MF}
+\selectlanguageifdefined{english}
+\BibEmph{Koren~Yehuda, Bell~Robert, Volinsky~Chris}. Matrix Factorization
+  Techniques for Recommender Systems~//
+  \href{http://dx.doi.org/10.1109/MC.2009.263}{\BibEmph{Computer}}. \BibDash
+\newblock 2009. \BibDash Aug. \BibDash
+\newblock Vol.~42, no.~8. \BibDash
+\newblock P.~30–37. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1109/MC.2009.263}.
+
+\bibitem{GoogleNewsCF}
+\selectlanguageifdefined{english}
+\href{http://dx.doi.org/10.1145/1242572.1242610}{Google News Personalization:
+  Scalable Online Collaborative Filtering}~/ Abhinandan~S.~Das, Mayur~Datar,
+  Ashutosh~Garg, Shyam~Rajaram~// Proceedings of the 16th International
+  Conference on World Wide Web. \BibDash
+\newblock WWW ’07. \BibDash
+\newblock New York, NY, USA~: Association for Computing Machinery, 2007.
+  \BibDash
+\newblock P.~271–280. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1145/1242572.1242610}.
+
+\bibitem{content-based}
+\selectlanguageifdefined{english}
+\BibEmph{Philip~Simon, Shola~Peter, Abari~Ovye}. Application of Content-Based
+  Approach in Research Paper Recommendation System for a Digital Library~//
+  \href{http://dx.doi.org/10.14569/IJACSA.2014.051006}{\BibEmph{International
+  Journal of Advanced Computer Science and Applications}}. \BibDash
+\newblock 2014. \BibDash 10. \BibDash
+\newblock Vol.~5.
+
+\bibitem{content-based_news}
+\selectlanguageifdefined{english}
+\BibEmph{Kompan~Michal, Bielikov{\'a}~M{\'a}ria}. Content-Based News
+  Recommendation~// E-Commerce and Web Technologies~/ Ed.\ by\
+  Francesco~Buccafurri, Giovanni~Semeraro. \BibDash
+\newblock Berlin, Heidelberg~: Springer Berlin Heidelberg, 2010. \BibDash
+\newblock P.~61--72.
+
+\bibitem{mdp}
+\selectlanguageifdefined{english}
+\BibEmph{Shani~Guy, Brafman~Ronen~I., Heckerman~David}. An MDP-Based
+  Recommender System~// Proceedings of the Eighteenth Conference on Uncertainty
+  in Artificial Intelligence. \BibDash
+\newblock UAI’02. \BibDash
+\newblock San Francisco, CA, USA~: Morgan Kaufmann Publishers Inc., 2002.
+  \BibDash
+\newblock P.~453–460.
+
+\bibitem{ppo}
+\selectlanguageifdefined{english}
+\BibEmph{Schulman~John, Wolski~Filip, Dhariwal~Prafulla et~al.} Proximal Policy
+  Optimization Algorithms. \BibDash
+\newblock 2017. \BibDash
+\newblock 1707.06347.
+
+\bibitem{dpg}
+\selectlanguageifdefined{english}
+Deterministic Policy Gradient Algorithms~/ David~Silver, Guy~Lever,
+  Nicolas~Heess et~al.~// Proceedings of the 31st International Conference on
+  Machine Learning~/ Ed.\ by\ Eric~P.~Xing, Tony~Jebara. \BibDash
+\newblock Vol.~32 of \BibEmph{Proceedings of Machine Learning Research}.
+  \BibDash
+\newblock Bejing, China~: PMLR, 2014. \BibDash 22--24 Jun. \BibDash
+\newblock P.~387--395. \BibDash
+\newblock Access mode: \BibUrl{http://proceedings.mlr.press/v32/silver14.html}.
+
+\bibitem{ddpg}
+\selectlanguageifdefined{english}
+Continuous control with deep reinforcement learning.~/ Timothy~P.~Lillicrap,
+  Jonathan~J.~Hunt, Alexander~Pritzel et~al.~// ICLR~/ Ed.\ by\ Yoshua~Bengio,
+  Yann~LeCun. \BibDash
+\newblock 2016.
+
+\bibitem{td3}
+\selectlanguageifdefined{english}
+\BibEmph{Fujimoto~Scott, van Hoof~Herke, Meger~David}. Addressing Function
+  Approximation Error in Actor-Critic Methods~// Proceedings of the 35th
+  International Conference on Machine Learning, {ICML} 2018,
+  Stockholmsm{\"{a}}ssan, Stockholm, Sweden, July 10-15, 2018~/ Ed.\ by\
+  Jennifer~G.~Dy, Andreas~Krause. \BibDash
+\newblock Vol.~80 of \BibEmph{Proceedings of Machine Learning Research}.
+  \BibDash
+\newblock {PMLR}, 2018. \BibDash
+\newblock P.~1582--1591. \BibDash
+\newblock Access mode:
+  \BibUrl{http://proceedings.mlr.press/v80/fujimoto18a.html}.
+
+\bibitem{Uhlenbeck30}
+\selectlanguageifdefined{english}
+\BibEmph{Uhlenbeck~G.~E., Ornstein~L.~S.} On the theory of the Brownian
+  motion~// \BibEmph{Phys. Rev.} \BibDash
+\newblock 1930. \BibDash
+\newblock Vol.~36, no.~3. \BibDash
+\newblock P.~823--841.
+
+\bibitem{vae}
+\selectlanguageifdefined{english}
+\BibEmph{Kingma~Diederik~P, Welling~Max}. Auto-Encoding Variational Bayes.
+  \BibDash
+\newblock 2013. \BibDash
+\newblock 1312.6114.
+
+\bibitem{pg}
+\selectlanguageifdefined{english}
+Policy Gradient Methods for Reinforcement Learning with Function
+  Approximation~/ Richard~S.~Sutton, David~McAllester, Satinder~Singh,
+  Yishay~Mansour~// Proceedings of the 12th International Conference on Neural
+  Information Processing Systems. \BibDash
+\newblock NIPS’99. \BibDash
+\newblock Cambridge, MA, USA~: MIT Press, 1999. \BibDash
+\newblock P.~1057–1063.
+
+\bibitem{first}
+\selectlanguageifdefined{english}
+DRN: A Deep Reinforcement Learning Framework for News Recommendation~/
+  Guanjie~Zheng, Fuzheng~Zhang, Zihan~Zheng et~al.~// \BibEmph{Proceedings of
+  the 2018 World Wide Web Conference}. \BibDash
+\newblock 2018.
+
+\bibitem{latest}
+\selectlanguageifdefined{english}
+\href{http://dx.doi.org/10.1145/3336191.3371858}{End-to-End Deep Reinforcement
+  Learning Based Recommendation with Supervised Embedding}~/ Feng~Liu,
+  Huifeng~Guo, Xutao~Li et~al.~// Proceedings of the 13th International
+  Conference on Web Search and Data Mining. \BibDash
+\newblock WSDM ’20. \BibDash
+\newblock New York, NY, USA~: Association for Computing Machinery, 2020.
+  \BibDash
+\newblock P.~384–392. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.1145/3336191.3371858}.
+
+\bibitem{wolpertinger}
+\selectlanguageifdefined{english}
+\BibEmph{Dulac-Arnold~Gabriel, Evans~Richard, van Hasselt~Hado et~al.} Deep
+  Reinforcement Learning in Large Discrete Action Spaces. \BibDash
+\newblock 2015. \BibDash
+\newblock 1512.07679.
+
+\end{thebibliography}
